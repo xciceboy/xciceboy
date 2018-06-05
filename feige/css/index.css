@@ -1,6 +1,19 @@
 ﻿.navbar {
 	margin-bottom: 0;
 	border: 0;
+	position: fixed;
+    height: 52px;
+    top: 0;
+    z-index: 999;
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+#container{
+	margin-top: 52px;
+}
+.navbar-collapse{
+	background-color: #fff;
 }
 
 @media (min-width: 768px) {
@@ -614,6 +627,9 @@ ul {
 @media (max-width: 992px) {
 	.aboutnav{
 		display: none;
+	}
+	.navbar-collapse .navcur{
+		border-bottom:0;
 	}
 }
 
