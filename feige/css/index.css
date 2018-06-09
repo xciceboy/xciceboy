@@ -63,7 +63,12 @@
 	border-top: 1px solid #ddd;
 	border-bottom: 1px solid #ddd;
 }
-
+.swiper .carousel-control.left{
+	background-image:none!important;
+}
+.swiper .carousel-control.right{
+	background-image:none!important;
+}
 footer .inner .footer-top h2 {
 	font-size: 24px;
 	color: #ffffff;
