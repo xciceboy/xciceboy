@@ -2,7 +2,7 @@
 	margin-bottom: 0;
 	border: 0;
 	position: fixed;
-    height: 52px;
+    /*height: 52px;*/
     top: 0;
     z-index: 999;
     background-color: #fff;
@@ -19,6 +19,9 @@
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: right;
+	}
+	.form-horizontal input[type="text"]{
+		margin-left: 40px;
 	}
 }
 
@@ -547,7 +550,15 @@ ul {
 	left: 0;
 	bottom: 0;
 }
+.index-heZuo li .hezuo-shade .txt-hidden{
+    line-height: 40px;
+    top: 80px;
+    position: relative;
+    background-color: #019BE3;
+    font-size: large;
+    color: #fff;
 
+}
 .solution {
 	padding-top: 40px;
 }
@@ -607,6 +618,7 @@ ul {
 	left: 0;
 	bottom: 0;
 }
+
 .solution li div p{
 	text-align: center;
     line-height: 119px;
@@ -631,5 +643,6 @@ ul {
 	.navbar-collapse .navcur{
 		border-bottom:0;
 	}
+
 }
 
