@@ -15,7 +15,13 @@
 .navbar-collapse{
 	background-color: #fff;
 }
-
+.navbar-toggle .icon-bar {
+	border: 1px solid;
+}
+.navbar-header a img{
+	height: 52px !important;
+    top: -16px !important;
+}
 @media (min-width: 768px) {
 	.navbar-nav {
 		float: right;
@@ -25,28 +31,33 @@
 	}
 }
 
-.navbar-toggle .icon-bar {
-	border: 1px solid;
-}
 
 .nav>li>a:focus,
 .nav>li>a:hover {
 	border-bottom: 2px solid #019BE3;
+	background-color: #fff;
 }
 .nav li:last-child a:focus,
 .nav li:last-child a:hover {
 	border-bottom: 0;
 }
-.navbar-nav a {
+.navbar-nav li a {
 	color: #000;
+	font-size: 16px;
 }
 
-.navbar-nav a:hover {
+.navbar-nav li a.current {
+	background-color: none;
+	color: #019BE3;
+	border-bottom: 2px solid #019BE3;
+}
+
+.navbar-nav li a:hover {
 	color: #019BE3;
 }
 .navcur{
     text-decoration: none;
-    background-color: #eee;
+    background-color: none;
     
     border-bottom: 2px solid #019BE3;
 }
@@ -168,6 +179,9 @@ ul {
 .service .service-wrap .service-bottom .service-list .service-item .service-icon {
 	text-align: center;
 }
+.service .service-wrap .service-bottom .service-list .service-item .service-icon a{
+	background-size: 100px 100px !important;
+}
 
 .service .service-wrap .service-bottom .service-list .service-item .service-icon a {
 	display: inline-block;
@@ -175,6 +189,7 @@ ul {
 	width: 100px;
 	margin: 0 auto;
 	background: url(../image/icon/service01.png) no-repeat center;
+
 }
 
 .service .service-wrap .service-bottom .service-list .service-item h3 {
@@ -647,6 +662,10 @@ ul {
 	}
 	.navbar-collapse .navcur{
 		border-bottom:0;
+	}
+	.navbar-header a>img{
+		height: 50px !important;
+	    margin-left:0px !important;
 	}
 
 }

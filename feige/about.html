@@ -16,6 +16,7 @@
     <!-- 让360双核浏览器用webkit内核渲染页面  -->
     <meta name="renderer" content="webkit">
     <meta name="robots" content="all">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -65,27 +66,25 @@
             </div>
         </div>
     </div>
-    <div>
-    	<img src="image/aboutus.png" style="display: block; width: 100%;">
-    	<div class="aboutnav" style="height: 50px;">
+    <div id="container">
+    	<img id="topimg" src="image/aboutus.png" style="display: block; width: 100%;">
+    	<div class="aboutnav" style="height: 50px;margin-top: 20px;">
     		 <!--style="margin: 0 auto;display: block;float: left;margin-left: 30%;width: 40%;"-->
-    		 <div id="container">
-	    		<ul class="nav navbar-nav row" style="width: 100%;text-align: center;">
-	    			<li class="col-md-2 col-md-offset-2">
-	    				<a href="#aboutus">关于我们</a>
-	    			</li>
-	    			<li class="col-md-2">
-	    				<a href="#serviceadvantage">服务优势</a>
-	    			</li>
-	    			<li class="col-md-2">
-	    				<a href="#aboutusteam">我们的团队</a>
-	    			</li>
-	    			<li class="col-md-2">
-	    				<a href="#contactus">联系我们</a>
-	    			</li>
-	    			<li style="display: none;" ><a href=""></a></li>
-	    		</ul>
-    		</div>
+    		<ul class="nav navbar-nav row" style="width: 100%;text-align: center;">
+    			<li class="col-md-2 col-md-offset-2">
+    				<a class="current" href="#aboutus">关于我们</a>
+    			</li>
+    			<li class="col-md-2">
+    				<a href="#serviceadvantage">服务优势</a>
+    			</li>
+    			<li class="col-md-2">
+    				<a href="#aboutusteam">我们的团队</a>
+    			</li>
+    			<li class="col-md-2">
+    				<a href="#contactus">联系我们</a>
+    			</li>
+    			<li style="display: none;" ><a href=""></a></li>
+    		</ul>
     	</div>
     	<div id="aboutus" class="gradient-blue"></div>
         <div class="bc-social" style="margin-top: 15px;border: 0;">
@@ -161,7 +160,7 @@
 					<form class="form-horizontal" onsubmit="return false;" style="margin-top: 40px;">
 						<div class="form-group col-md-3">
 							
-							<input type="email" class="form-control" id="yourname" placeholder="您的名字">
+							<input type="email" class="form-control" id="yourname" placeholder="您的称呼">
 						</div>
 						<div class="form-group col-md-3">
 							
@@ -205,6 +204,31 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+    <script type="text/javascript">
+    	(function(){
+    		var aboutnavH = $(".aboutnav").offset().top;
+    		console.log(aboutnavH);
+    		$(window).scroll(function(){
+    			var topH = document.body.scrollTop||document.documentElement.scrollTop;
+    			// console.log(topH)
+				// if(topH>=aboutnavH ){
+				// 	$('.navbar').css('display','none');
+				// 	$('#topimg').css('display','none');
+				// 	$(".aboutnav").css({
+				// 		position:'fixed',
+				// 		top:0
+				// 	});
+				// }else{
+				// 	$('.navbar').css('display','');
+				// 	$('#topimg').css('display','');
+				// 	$(".aboutnav").css({
+				// 		position:'relative',
+				// 		top:0
+				// 	});
+				// }
+			});
+    	})();
+    </script>
 </body>
 
 </html>
