@@ -236,8 +236,40 @@ ul {
 	border-radius: 50%;
 }
 
-
-
+.index-solution {
+	width: 100%;
+	height: auto;
+	display: block flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+	overflow: hidden;
+	height: 380px;
+}
+.index-solution li {
+	position: relative;
+}
+.index-solution li img{
+	width: 100%;
+}
+.index-solution li div{
+	position: relative;
+	top: -120px;
+	height:100px;
+	width: 90%;
+	margin: 0 auto;
+	background: #fcfcfd;
+	opacity: .8;
+}
+.index-solution li h3,.index-solution li p{
+    position: relative;
+    width: 90%;
+	margin: 0 auto;
+    top: -200px;
+    color: #000;
+}
+.index-solution li p{
+	padding: 0 10px;
+}
 .index-jieJue {
 	width: 100%;
 	height: auto;
@@ -251,7 +283,7 @@ ul {
 	flex-grow: 0;
 	flex-shrink: 1;
 	flex-basis: 285px;
-	height: 334px;
+	/*height: 334px;*/
 	position: relative;
 	margin-bottom: 40px;
 }
@@ -268,36 +300,6 @@ ul {
 	height: 200px;
 	position: relative;
 	overflow: hidden;
-}
-
-.index-jieJue li .hangYe .hangye-bg .hangye-shade {
-	width: 100%;
-	height: 100%;
-	display: none;
-	overflow: hidden;
-	background: #35cbfde6;
-	border: 1px solid #3cc7f8;
-	animation: ainimeta_width 1s ease;
-	-moz-animation: ainimeta_width 1s ease;
-	-webkit-animation: ainimeta_width 1s ease;
-	-o-animation: ainimeta_width 1s ease;
-	-ms-animation: ainimeta_width 1s ease;
-}
-
-.index-jieJue li .hangYe .hangye-bg .hangye-shade .max-icon {
-	display: inline-block;
-	width: 80px;
-	height: 80px;
-	background-position: -95px -608px;
-	opacity: 0;
-	position: absolute;
-	left: 50%;
-	top: 0;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
 }
 
 .index-jieJue li .hangYe .hangye-bg img {
@@ -389,7 +391,7 @@ ul {
 }
 
 .index-heZuo li {
-	/*width: 14.28%;*/
+	width: 14.28%;
 	height: 119px;
 	float: left;
 	border-right: 1px solid #e6e6e6;
@@ -595,7 +597,7 @@ ul {
 
 .solution li {
 	/*width: 14.28%;*/
-	height: 119px;
+	/*height: 119px;*/
 	float: left;
 	position: relative;
 	overflow: hidden;
@@ -651,7 +653,7 @@ ul {
 
 .solution li div p{
 	text-align: center;
-    line-height: 119px;
+    line-height: 200px;
     display: block;
     color: #fff;
 }
@@ -677,6 +679,38 @@ ul {
 		height: 50px !important;
 	    margin-left:0px !important;
 	}
-
+	.index-heZuo li{
+		width: 50%;
+	}
 }
 
+.body-right{
+	position: fixed;
+	display: block;
+	right: 10px;
+	width: 50px;
+	bottom: 50px;
+	z-index: 999;
+}
+.body-right img,.body-right a{
+	width: 100%;
+}
+.body-right a{
+	display: block;
+	margin-top: 5px; 
+}
+.solution-detail-left{
+	position: relative;
+	height: 160px
+}
+.solution-detail-left-text{
+	position: relative;
+    top: -160px;
+    height: 160px;
+    text-align: center;
+    z-index: 1;
+    background: #000;
+    line-height: 160px;
+    opacity: .6;
+    color: #fff;
+}

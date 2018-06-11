@@ -31,4 +31,13 @@
  //    strfooter.push('</div></div></div>');
  //    strfooter.push('<div class="footer_p">Copyright © 飞歌科技 京ICP备18013854号</div>');
 	// $('#footer').html(strfooter.join(''));
+  var bottom_right=[];
+  bottom_right.push('<div class="body-right">');
+      bottom_right.push('<a href="tel:18210096007">');
+      bottom_right.push('<img src="image/icon/call2.png">');
+      bottom_right.push('</a><a href="#">');
+      bottom_right.push('<img src="image/icon/qq.png">');
+      bottom_right.push('</a>');
+      bottom_right.push('</div>');
+  $('body').append(bottom_right.join(''));
 })();
