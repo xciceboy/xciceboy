@@ -57,7 +57,7 @@
 	font-size: 16px;
 }
 
-.navbar-nav li a.current {
+.navbar-nav .current {
 	background-color: none;
 	color: #019BE3;
 	border-bottom: 2px solid #019BE3;

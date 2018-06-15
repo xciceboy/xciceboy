@@ -70,9 +70,9 @@
     	<img id="topimg" src="image/aboutus.png" style="display: block; width: 100%;">
     	<div class="aboutnav" style="height: 50px;margin-top: 20px;">
     		 <!--style="margin: 0 auto;display: block;float: left;margin-left: 30%;width: 40%;"-->
-    		<ul class="nav navbar-nav row" style="width: 100%;text-align: center;">
-    			<li class="col-md-2 col-md-offset-2">
-    				<a class="current" href="#aboutus">关于我们</a>
+    		<ul class="navbar-nav row" style="width: 100%;text-align: center;line-height: 50px">
+    			<li class="col-md-2 col-md-offset-2 current">
+    				<a href="#aboutus">关于我们</a>
     			</li>
     			<li class="col-md-2">
     				<a href="#serviceadvantage">服务优势</a>
@@ -209,25 +209,48 @@
     		var aboutnavH = $(".aboutnav").offset().top;
     		console.log(aboutnavH);
     		$(window).scroll(function(){
+    			//随着浏览器往下滚动，根据距离顶部的距离，判断当前选中的menu
+	            var top1 = parseInt($("#aboutus").offset().top);
+	            var top2 = parseInt($("#serviceadvantage").offset().top);
+	            var top3 = parseInt($("#aboutusteam").offset().top);
+	            var top4 = parseInt($("#contactus").offset().top);
     			var topH = document.body.scrollTop||document.documentElement.scrollTop;
-    			// console.log(topH)
-				// if(topH>=aboutnavH ){
-				// 	$('.navbar').css('display','none');
-				// 	$('#topimg').css('display','none');
-				// 	$(".aboutnav").css({
-				// 		position:'fixed',
-				// 		top:0
-				// 	});
-				// }else{
-				// 	$('.navbar').css('display','');
-				// 	$('#topimg').css('display','');
-				// 	$(".aboutnav").css({
-				// 		position:'relative',
-				// 		top:0
-				// 	});
-				// }
+
+				if(topH>=aboutnavH ){
+					$('.navbar').css('display','none');
+					$('#topimg').css('display','none');
+					$(".aboutnav").css({
+						'position':'fixed',
+						'top':0,
+						'width':'100%',
+						'background':'#fff',
+						'margin-top':0,
+						'z-index':999
+					});
+				}
+				if (topH == 0) {
+					$('.navbar').css('display','');
+					$('#topimg').css('display','');
+					$(".aboutnav").css({
+						'position':'relative',
+						'top':0,
+						'width':'100%',
+						'background':'#fff',
+						'margin-top':'20px',
+						'z-index':999
+					});
+				}
 			});
     	})();
+    </script>
+    <script type="text/javascript" src="js/jquery.nav.js"></script>
+    <script type="text/javascript">
+    	  jQuery(function(){
+		    $ = jQuery ;
+		    $(".aboutnav ul").onePageNav();
+		    // $(".aboutnav ul").singlePageNav({offset: $('.aboutnav').outerHeight()});
+		  
+		  });
     </script>
 </body>
 
