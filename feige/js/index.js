@@ -33,7 +33,7 @@
     // $('#footer').html(strfooter.join(''));
     var bottom_right = [];
     bottom_right.push('<div class="body-right">');
-    bottom_right.push('<div><a href="tel:18210096007">');
+    bottom_right.push('<div style="height:52px;"><a href="tel:18210096007">');
     bottom_right.push('<img src="image/icon/call2.png" onmouseover="onMouseover(this);" ></a>');
     bottom_right.push('<p style="display:none;" onmouseleave="onMouseleave(this);">18210096007</p></div>');
     bottom_right.push('<div>');
@@ -54,7 +54,12 @@
         _p.css({
             'display': 'block',
             'position': 'relative',
-            'top': '-30px'
+            'top': '-52px',
+            'width': '90px',
+            'height': '52px',
+            'line-height': '52px',
+            'background': '#eee'
+
         });
     }
 

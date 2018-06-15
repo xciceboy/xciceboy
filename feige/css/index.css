@@ -2,7 +2,7 @@
 	margin-bottom: 0;
 	border: 0;
 	position: fixed;
-    /*height: 52px;*/
+    height: 53px;
     top: 0;
     z-index: 999;
     background-color: #fff;
@@ -19,7 +19,7 @@
 	border: 1px solid;
 }
 .navbar-header a img{
-    height: 35px !important;
+    height: 40px !important;
     top: -16px !important;
     margin-top: 10px;
 }
