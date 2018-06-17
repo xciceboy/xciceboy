@@ -175,11 +175,11 @@ input[type="password"] {
     zoom: 1;
 }
 
-a:link,
+/*a:link,
 a:visited {
     text-decoration: none;
     color: #3f3f3f;
-}
+}*/
 
 a:active,
 a:hover {
