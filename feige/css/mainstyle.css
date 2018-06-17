@@ -3990,7 +3990,7 @@ a:hover {
 
 .detail-right-item h3 {
     padding-top: 17px;
-    background: url("../images/detail-item-t-bg.png") no-repeat left top;
+    /*background: url("../images/detail-item-t-bg.png") no-repeat left top;*/
     font-size: 16px;
     color: #707070;
 }
@@ -4026,7 +4026,7 @@ a:hover {
 }
 
 .detail-right-item ul li a:hover {
-    color: #ff7852;
+    color: #019BE3;
 }
 
 .case-sencil {

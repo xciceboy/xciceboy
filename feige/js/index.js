@@ -48,15 +48,15 @@
         var _par = _this.parent('a');
         _par.css({
           'position':'relative',
-          // 'left':'-70px'
+          // 'left':'-70px'   
         });
         var _p = _par.siblings('p');
         _p.css({
             'display': 'block',
             'position': 'relative',
             'top': '-52px',
-            'left':'-80px',
-            'width': '90px',
+            'left':'-100px',
+            'width': '110px',
             'height': '52px',
             'background': '#019BE3',
             'color':'#fff',
