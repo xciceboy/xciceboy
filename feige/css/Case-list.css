@@ -99,21 +99,23 @@
     width: 100%;
 }
 
+.check1 {
+    margin: 17px 30px 19px 30px;
+    height: 36px;
+    padding: 0 20px;
+    display: inline-block;
+    background-color: #048adc;
+}
 .check1 a, .no-check1 a {
     color: #333;
     font-size: 16px;
     line-height: 36px;
 }
 
-.check1 {
-    margin: 17px 30px 19px 30px;
-    height: 36px;
-    padding: 0 20px;
-    display: inline-block;
 
-    background-color: #8ad124;
+.check1 a{
+    color: #fff;
 }
-
 .no-check1 {
     margin: 17px 30px 19px 30px;
     height: 36px;
@@ -126,27 +128,27 @@
     height: 58px;
     padding: 17px 12px 27px 12px;
     margin-right: 75px;
-    border-bottom: 2px solid #8ad124;
+    border-bottom: 2px solid #048adc;
 }
 
 .no-check2 {
     display: inline-block;
     height: 58px;
     padding: 17px 12px 27px 12px ;
-    /*margin-right: 75px;*/
+    margin-right: 75px;
 }
 
 .check2 a {
     height: 12px;
     line-height: 12px;
-    /*font-size: 13px;*/
+    font-size: 13px;
     color: #333;
 }
 
 .no-check2 a {
     height: 12px;
     line-height: 12px;
-    /*font-size: 13px;*/
+    font-size: 13px;
     color: #999999;
 }
 
