@@ -66,12 +66,12 @@
 
 .navbar-nav li a:hover {
 	color: #019BE3;
-	height: 50px;
+	/*height: 50px;*/
 }
 .navcur{
     text-decoration: none;
     background-color: none;
-    height: 50px;
+    /*height: 50px;*/
     border-bottom: 2px solid #019BE3;
 }
 .navcur a{
@@ -728,6 +728,7 @@ ul {
 .carousel-indicators li{
 	width: 40px;
 	height: 5px;
+	background: #777471;
 }
 .carousel-indicators .active{
 	width: 40px;
