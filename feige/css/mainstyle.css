@@ -82,9 +82,9 @@ video {
     margin: 0;
     padding: 0;
     border: 0;
-    font: inherit;
+    /*font: inherit;*/
     font-size: 100%;
-    vertical-align: baseline;
+    /*vertical-align: baseline;*/
 }
 
 html {
@@ -148,7 +148,7 @@ a,
 p,
 * {
     list-style-type: none;
-    font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;
+    /*font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif;*/
     font-weight: normal;
     text-decoration: none;
     color: inherit;

@@ -60,16 +60,18 @@
 .navbar-nav .current {
 	background-color: none;
 	color: #019BE3;
+	
 	border-bottom: 2px solid #019BE3;
 }
 
 .navbar-nav li a:hover {
 	color: #019BE3;
+	height: 50px;
 }
 .navcur{
     text-decoration: none;
     background-color: none;
-    
+    height: 50px;
     border-bottom: 2px solid #019BE3;
 }
 .navcur a{
@@ -722,4 +724,13 @@ ul {
 }
 .caseList-sm-menu ul li span{
 	cursor: pointer;
+}
+.carousel-indicators li{
+	width: 40px;
+	height: 5px;
+}
+.carousel-indicators .active{
+	width: 40px;
+	height: 5px;
+	border: 0;
 }

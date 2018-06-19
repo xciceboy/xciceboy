@@ -35,9 +35,11 @@
     bottom_right.push('<div class="body-right">');
     bottom_right.push('<div style="height:52px;"><a href="tel:18210096007">');
     bottom_right.push('<img src="image/icon/call2.png" onmouseover="onMouseover(this);" ></a>');
-    bottom_right.push('<p style="display:none;" onmouseleave="onMouseleave(this);">联系电话：18210096007</p></div>');
-    bottom_right.push('<div>');
-    bottom_right.push('<a href="tencent://message/?uin=783052871&Site=飞歌科技&Menu=yes">');
+    bottom_right.push('<p style="display:none;margin: 0;" onmouseleave="onMouseleave(this);">');
+    bottom_right.push('<span style="display: block;text-align: center;">联系电话：</span>');
+    bottom_right.push('<span style="display: block;text-align: center;">18210096007</span>');
+    bottom_right.push('</p></div>');
+    bottom_right.push('<div><a href="tencent://message/?uin=783052871&Site=飞歌科技&Menu=yes">');
     bottom_right.push('<img src="image/icon/qq.png" ></a>');// onmouseover="onMouseover(this);"
     bottom_right.push('</div>');//<p style="display:none;" onmouseleave="onMouseleave(this);">783052871</p>
     bottom_right.push('</div>');
@@ -55,8 +57,8 @@
             'display': 'block',
             'position': 'relative',
             'top': '-52px',
-            'left':'-100px',
-            'width': '110px',
+            'left':'-110px',
+            'width': '120px',
             'height': '52px',
             'background': '#019BE3',
             'color':'#fff',

@@ -3,11 +3,11 @@ var objdata = {
 		title:'南宁轨道交通app'
 		,des:'国内知名上市电商，品尚汇拥有三大运营平台：B2C平台品尚汇；B2B平台店省省；进口酒供应链服务平台， 构建了B2C+B2B+供应链服务的全渠道进口酒类平台。'
 		,flag:['品尚汇APP','品尚汇PC站','品尚汇微信']
-		,content:'<img src="image/case/nngdjt1.png" style="width: 100%;max-width: 1000px;" />'
+		,content:'<img src="image/case/nanningguidaojiaotong1.png" style="width: 100%;max-width: 1000px;" /><img src="image/case/nanningguidaojiaotong2.png" style="width: 100%;max-width: 1000px;" /><img src="image/case/nanningguidaojiaotong3.png" style="width: 100%;max-width: 1000px;" />'
 	}
 	,baobaoshu:{
 		title:'宝宝树-怀孕育儿大型育儿网站社区'
-		,des:'宝宝树是国内专业的育儿社区平台，新墨为宝宝树先后开发宝宝树孕育和小时光及宝宝树美囤妈妈两三款手机应用，让父母们进行有价值的经验分享及育儿学习，来满足多层次、全方位、适应时代进步育儿需求。'
+		,des:'宝宝树是国内专业的育儿社区平台，飞歌为宝宝树先后开发宝宝树孕育和小时光及宝宝树美囤妈妈两三款手机应用，让父母们进行有价值的经验分享及育儿学习，来满足多层次、全方位、适应时代进步育儿需求。'
 		,flag:['社区PC站 ','孕育APP','宝宝树微信']
 		,content:'<img src="image/case/baobaoshu1.jpg" style="width: 100%;max-width: 1000px;" />'
 	}
@@ -25,7 +25,7 @@ var objdata = {
 	}
 	,wangyi:{
 		title:'网易-一起打造最有态度的产品'
-		,des:'蜗牛读书、网易美学、网易哒哒，网易严选~~新墨与网易4度牵手合作，一起打造最有态度的产品。'
+		,des:'蜗牛读书、网易美学、网易哒哒，网易严选~~飞歌与网易4度牵手合作，一起打造最有态度的产品。'
 		,flag:['蜗牛读书APP','网易美学APP','网易哒哒 APP','网易严选']
 		,content:'<img src="image/case/wangyi.jpg" style="width: 100%;max-width: 1000px;" />'
 	}
